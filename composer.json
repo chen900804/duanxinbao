@@ -1,0 +1,15 @@
+{
+    "name": "duanxinbao/setsms",
+    "description": "this a sms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phpstrom",
+            "email": "admin@phpstrom.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "Duanxinbao\\Setsms": "/src"
+    }
+}
