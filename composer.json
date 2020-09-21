@@ -13,5 +13,15 @@
         "psr-4": {
             "Duanxinbao\\Setsms\\": "/src"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+	            "Duanxinbao\\Setsms\\SetsmsProvider"
+             ],
+             "aliases": {
+	            "Setsms": "Duanxinbao\\Setsms\\Facades\\Setsms"
+             }
+        }
+   }
 }
