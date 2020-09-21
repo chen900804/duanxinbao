@@ -10,6 +10,8 @@
     ],
     "require": {},
     "autoload": {
-        "Duanxinbao\\Setsms": "/src"
+        "psr-4": {
+            "Duanxinbao\\Setsms": "/src"
+        }
     }
 }
