@@ -10,24 +10,14 @@ use Illuminate\Config\Repository;
 
 class Setsms{
     private $config;
-    private $config_sms;
     public function __construct(Repository $config)
     {
         $this->config=$config;
     }
-    public function set($id){
-        if ($this->config->get('sms')){
-            $this->config_sms=$this->config->get('sms');
-        }else{
-            $this->config_sms=[
-                'username'=>'phpstrom',
-                'password'=>'tny123',
-                'mb'=>[
-                    '1',
-                    '2'
-                ]
-            ];
+    public function set($mb){
+        if (!$this->config->get('sms')){
+            echo "请先配置";
+            exit();
         }
-        dd($this->config_sms);
     }
 }

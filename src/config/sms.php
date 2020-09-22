@@ -8,8 +8,4 @@
 return [
     'username'=>'phpstrom',
     'password'=>'tny123',
-    'mb'=>[
-        '1',
-        '2'
-    ]
 ];
