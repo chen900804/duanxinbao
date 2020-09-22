@@ -1,14 +1,17 @@
 {
     "name": "duanxinbao/setsms",
-    "description": "this a sms",
+    "description": "this a sms only laravel",
     "license": "MIT",
+    "keywords": ["laravel"],
     "authors": [
         {
             "name": "phpstrom",
             "email": "admin@phpstrom.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
     "autoload": {
         "psr-4": {
             "Duanxinbao\\": "/src"
