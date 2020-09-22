@@ -5,7 +5,7 @@
  * Date: 2020/9/21
  * Time: 8:11
  */
-namespace Duanxinbao\Setsms;
+namespace Duanxinbao;
 use Illuminate\Support\ServiceProvider;
 
 class SetsmsProvider extends ServiceProvider{

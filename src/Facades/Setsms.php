@@ -5,7 +5,7 @@
  * Date: 2020/9/21
  * Time: 8:10
  */
-namespace Duanxinbao\Setsms\Facades;
+namespace Duanxinbao\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

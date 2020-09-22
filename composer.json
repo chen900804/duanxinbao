@@ -11,17 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Duanxinbao\\Setsms\\": "/src"
+            "Duanxinbao\\": "/src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-	            "Duanxinbao\\Setsms\\SetsmsProvider"
-             ],
-             "aliases": {
-	            "Setsms": "Duanxinbao\\Setsms\\Facades\\Setsms"
-             }
-        }
-   }
+    }
 }
