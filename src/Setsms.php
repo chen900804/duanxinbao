@@ -6,7 +6,9 @@
  * Time: 8:06
  */
 namespace Duanxinbao;
+
 use Illuminate\Config\Repository;
+use GuzzleHttp\Client;
 
 class Setsms{
     private $config;
@@ -19,5 +21,7 @@ class Setsms{
             echo "请先配置";
             exit();
         }
+        $http = new Client();
+
     }
 }
